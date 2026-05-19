@@ -1,3 +1,10 @@
+# Actividad - Creación de base de datos university.sqlite
+
+Importar los datos desde el archivo de Excel (university.xlxs Descargar university.xlxs)​
+Crea una base de datos llamada university.sqlite​
+Define las claves primarias y foráneas​
+Inserta los datos en las tablas correspondientes
+
 0. Install dependencies:
 ``pip install pandas``
 ``pip install sqlite3``
