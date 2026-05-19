@@ -100,12 +100,14 @@ try:
             REFERENCES instructor(ID),
 
         FOREIGN KEY (course_id)
-            REFERENCES course(course_id),
+            REFERENCES course(course_id)
 
-        FOREIGN KEY (sec_id)
-            REFERENCES section(id)
+        -- FOREIGN KEY (sec_id)
+        --    REFERENCES section(id)
     );
     """)
+    # El profesor no puso sec_id porque necesita conectar con un curso primero y después con la sección
+    # Si no hay curso, entonces no debería haber relación con sección
 
     # -----------------------------
     # Advisor
