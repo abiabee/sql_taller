@@ -7,7 +7,7 @@ print("Llenando base de datos...")
 # Conectar DB
 # ======================================
 
-con = sqlite3.connect("university.db")
+con = sqlite3.connect("university.sqlite")
 cursor = con.cursor()
 
 cursor.execute("PRAGMA foreign_keys = ON")

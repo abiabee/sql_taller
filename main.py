@@ -2,7 +2,7 @@ import sqlite3
 
 try:
     print("Reconstruyendo base de datos...")
-    con = sqlite3.connect("university.db")
+    con = sqlite3.connect("university.sqlite")
     cursor = con.cursor()
 
     # Hablitar foreign keys
